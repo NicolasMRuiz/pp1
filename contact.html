@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Biblioteca Beltrán</title>
+    <meta name="description" content="Contáctanos en la Biblioteca Beltrán. Estamos aquí para ayudarte.">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="logo">📚 Biblioteca Beltrán</a>
+            <button class="hamburger">☰</button>
+            <div class="nav-menu">
+                <a href="index.html">Inicio</a>
+                <a href="list.html">Libros</a>
+                <a href="contact.html">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main class="container">
+        <!-- Encabezado -->
+        <h1>Contacto</h1>
+
+        <!-- Formulario de contacto -->
+        <section class="contact-form">
+            <h2>Envíanos un mensaje</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name" class="form-label">Nombre *</label>
+                    <input type="text" id="name" name="name" class="form-input" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email" class="form-label">Email *</label>
+                    <input type="email" id="email" name="email" class="form-input" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="subject" class="form-label">Asunto *</label>
+                    <input type="text" id="subject" name="subject" class="form-input" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message" class="form-label">Mensaje *</label>
+                    <textarea id="message" name="message" class="form-textarea" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn-send">Enviar Mensaje</button>
+            </form>
+        </section>
+
+        <!-- Sección de oficinas -->
+        <section class="offices-section">
+            <h2>Nuestras Oficinas</h2>
+            <div class="offices-grid">
+                <div class="office-card">
+                    <div class="office-city">Madrid, España</div>
+                    <div class="office-address">
+                        Calle Gran Vía, 123<br>
+                        28013 Madrid, España<br>
+                        Tel: +34 91 123 45 67<br>
+                        Email: madrid@bibliotecabeltran.com
+                    </div>
+                </div>
+                
+                <div class="office-card">
+                    <div class="office-city">Buenos Aires, Argentina</div>
+                    <div class="office-address">
+                        Av. Corrientes, 456<br>
+                        C1043AAB Buenos Aires, Argentina<br>
+                        Tel: +54 11 4567 8901<br>
+                        Email: buenosaires@bibliotecabeltran.com
+                    </div>
+                </div>
+                
+                <div class="office-card">
+                    <div class="office-city">Ciudad de México, México</div>
+                    <div class="office-address">
+                        Paseo de la Reforma, 789<br>
+                        06500 Ciudad de México, México<br>
+                        Tel: +52 55 7890 1234<br>
+                        Email: mexico@bibliotecabeltran.com
+                    </div>
+                </div>
+                
+                <div class="office-card">
+                    <div class="office-city">Bogotá, Colombia</div>
+                    <div class="office-address">
+                        Carrera 7, 321<br>
+                        110221 Bogotá, Colombia<br>
+                        Tel: +57 1 321 0987<br>
+                        Email: bogota@bibliotecabeltran.com
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <nav class="footer-nav">
+                <a href="index.html">Inicio</a>
+                <a href="list.html">Libros</a>
+                <a href="contact.html">Contacto</a>
+            </nav>
+            <div class="footer-bottom">
+                <div class="theme-switch">
+                    <span>🌙</span>
+                    <label class="switch">
+                        <input type="checkbox" id="theme-switch">
+                        <span class="slider"></span>
+                    </label>
+                    <span>☀️</span>
+                </div>
+                <div class="footer-copyright">
+                    © 2024 Biblioteca Beltrán. Todos los derechos reservados.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html> 
