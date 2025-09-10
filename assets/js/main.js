@@ -55,8 +55,8 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Cargar contenido según la página actual
     const path = window.location.pathname;
-    if (path === '/' || path === '/index.html') {
-        loadHomePage();
+    if (path.endsWith('/index.html') || path === '/' || path.endsWith('/pp1/')) {
+    loadHomePage();
     } else if (path.includes('/list.html')) {
         loadListPage();
     } else if (path.includes('/book.html')) {
