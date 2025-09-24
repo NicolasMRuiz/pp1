@@ -36,8 +36,8 @@ Una biblioteca digital moderna y responsiva que consume información desde la AP
 
 ### 4. Contact Page (`contact.html`)
 - Formulario de contacto con validación
-- Sección de oficinas en 4 ciudades
-- Información de contacto completa
+- Sección de oficinas en 4 ciudades (Comentado en el código)
+- Información de contacto completa (Comentado en el código)
 
 ## 🛠️ Tecnologías Utilizadas
 
@@ -148,13 +148,6 @@ Luego visitar `http://localhost:8000`
 - Música
 - Deportes
 
-## 🌍 Oficinas
-
-- **Madrid, España**
-- **Buenos Aires, Argentina**
-- **Ciudad de México, México**
-- **Bogotá, Colombia**
-
 ## 🔒 Consideraciones de Privacidad
 
 - No se almacenan datos personales
@@ -177,6 +170,12 @@ Luego visitar `http://localhost:8000`
 - Verificar que el navegador soporte LocalStorage
 - Limpiar datos del navegador si es necesario
 
+## Diseño de la página
+- El link a la página donde se planteó el diseño es: https://miro.com/app/board/uXjVI409V2c=/
+- Sin embargo, adjunto una imagen de la vista por si no se tiene acceso al Miro.
+
+![Mockup mobile de la página](https://drive.google.com/uc?export=view&id=1nKL7342J7wz9LeZ8m8LRzxHDYyQlL4M0)
+
 ## 📝 Licencia
 
 Este proyecto es de código abierto y está disponible bajo la licencia MIT.
@@ -189,11 +188,3 @@ Las contribuciones son bienvenidas. Por favor:
 3. Commit tus cambios
 4. Push a la rama
 5. Abre un Pull Request
-
-## 📞 Contacto
-
-Para preguntas o soporte, visita la página de contacto en la aplicación o crea un issue en el repositorio.
-
----
-
-**Desarrollado con ❤️ para la comunidad de lectores digitales** 
